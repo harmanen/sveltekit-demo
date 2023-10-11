@@ -18,3 +18,4 @@ A small demo app build using Svelte and SvelteKit.
 - TypeScript syntax
 - Vitest for (unit) tests
 - ESLint and Prettier for linting and code formatting, respectively
+  - Code autoformatting when using VSCode is enabled if recommended plugins are installed
