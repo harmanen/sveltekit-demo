@@ -1,0 +1,40 @@
+@use 'functions';
+
+:root {
+  --bg-color: #999999;
+  --dark-gray: #121212;
+  --text-color: #ffffff;
+  --primary-js-on: #db82eb;
+  --primary-js-off: #ebce81;
+  --secondary: #81ebca;
+  --top-bar-height: 150px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  line-height: 1.4;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+h1 {
+  font-size: functions.toRem(36);
+}
+h2 {
+  font-size: functions.toRem(32);
+}
+h3 {
+  font-size: functions.toRem(28);
+}
+h4 {
+  font-size: functions.toRem(24);
+}
+h5 {
+  font-size: functions.toRem(20);
+}
+h6 {
+  font-size: functions.toRem(16);
+}
