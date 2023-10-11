@@ -4,8 +4,8 @@ A small demo app build using Svelte and SvelteKit.
 
 ## Requisites
 
-* Node v. 18.18.1 LTS
-* Visual Studio Code for editing
+- Node v. 18.18.1 LTS
+- Visual Studio Code for editing
 
 ## Usage
 
@@ -15,6 +15,6 @@ A small demo app build using Svelte and SvelteKit.
 
 ## Project configuration
 
-* TypeScript syntax
-* Vitest for (unit) tests
-* ESLint and Prettier for linting and code formatting, respectively
+- TypeScript syntax
+- Vitest for (unit) tests
+- ESLint and Prettier for linting and code formatting, respectively
