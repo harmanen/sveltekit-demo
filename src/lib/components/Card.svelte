@@ -1,5 +1,6 @@
 <script lang="ts">
   import type { MockDataType } from '../../data';
+  import Button from './Button.svelte';
 
   export let item: MockDataType;
 </script>
@@ -16,8 +17,22 @@
     {item.extract}
   </p>
   <div class="buttons">
-    <button>placeholder</button>
-    <button>placeholder</button>
+    <Button element="button">placeholder</Button>
+    <!-- Select a link button to Wikipedia based on the screen width -->
+    <div class="wikipedia-link-desktop">
+      <Button
+        element="a"
+        href={item.content_urls.desktop.page}
+        variant="secondary">To Wikipedia</Button
+      >
+    </div>
+    <div class="wikipedia-link-mobile">
+      <Button
+        element="a"
+        href={item.content_urls.mobile.page}
+        variant="secondary">To Wikipedia</Button
+      >
+    </div>
   </div>
 </div>
 
@@ -56,6 +71,16 @@
       align-items: center;
       justify-content: space-around;
       padding-bottom: 20px;
+    }
+    @media screen and (max-width: '799.9px') {
+      .wikipedia-link-desktop {
+        display: none;
+      }
+    }
+    @media screen and (min-width: '800px') {
+      .wikipedia-link-mobile {
+        display: none;
+      }
     }
   }
 </style>
