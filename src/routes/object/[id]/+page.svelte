@@ -12,8 +12,10 @@
     />
   </div>
   <div class="object-item text-container">
-    <h3>{data.title}</h3>
-    <p>{@html data.extract_html}</p>
+    <div class="text-background">
+      <h3>{data.title}</h3>
+      <p>{@html data.extract_html}</p>
+    </div>
   </div>
 </div>
 
@@ -21,7 +23,6 @@
   .object-container {
     display: flex;
     width: 100%;
-    min-height: calc(100vh - var(--top-bar-height));
     @media screen and (max-width: '800px') {
       flex-direction: column;
     }
@@ -39,11 +40,23 @@
     align-items: flex-start;
     justify-content: center;
   }
+  .text-background {
+    background-color: var(--dark-gray);
+    height: calc(100% - 2 * 20px);
+    border-radius: 25px;
+    padding: 20px 20px 20px;
+  }
   img {
     width: 100%;
+    border-radius: 25px;
     @media screen and (max-width: '800px') {
       width: 95%;
       padding-top: 20px;
     }
+  }
+  h3,
+  p {
+    margin: 0;
+    color: var(--text-color);
   }
 </style>
