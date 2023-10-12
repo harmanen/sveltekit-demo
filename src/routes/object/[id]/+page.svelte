@@ -14,7 +14,7 @@
   <div class="object-item text-container">
     <div class="text-background">
       <h3>{data.title}</h3>
-      <p>{@html data.extract_html}</p>
+      <p>{data.extract}</p>
     </div>
   </div>
 </div>
@@ -39,6 +39,17 @@
     display: flex;
     align-items: flex-start;
     justify-content: center;
+    @media screen and (min-width: '800px') {
+      padding-right: 10px;
+    }
+    @media screen and (max-width: '800px') {
+      padding-bottom: 20px;
+    }
+  }
+  .text-container {
+    @media screen and (min-width: '800px') {
+      padding-left: 10px;
+    }
   }
   .text-background {
     background-color: var(--dark-gray);
@@ -49,10 +60,6 @@
   img {
     width: 100%;
     border-radius: 25px;
-    @media screen and (max-width: '800px') {
-      width: 95%;
-      padding-top: 20px;
-    }
   }
   h3,
   p {
