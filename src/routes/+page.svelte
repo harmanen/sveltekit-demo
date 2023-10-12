@@ -1,10 +1,13 @@
-<script>
+<script lang="ts">
   import { Card } from '$components';
+  import type { PageData } from './$types';
+
+  export let data: PageData;
 </script>
 
 <div class="grid-container">
   <!-- TMP, replace with real data when grid works -->
-  {#each [1, 2, 3, 4, 5, 6] as item}
+  {#each data.mockData as item}
     <div class="grid-item">
       <Card {item} />
     </div>
