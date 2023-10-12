@@ -5,7 +5,7 @@
 </script>
 
 <div class="card-container">
-  <h3 class="title">
+  <h3>
     {item.title}
   </h3>
   <img
@@ -13,7 +13,7 @@
     alt="An image of {item.title} which is {item.description}"
   />
   <p class="extract truncate-3">
-    {@html item.extract_html}
+    {item.extract}
   </p>
   <div class="buttons">
     <button>placeholder</button>
@@ -38,7 +38,7 @@
     }
     h3 {
       color: var(--primary-js-on);
-      :global(html.no-js) {
+      :global(html.no-js) & {
         color: var(--primary-js-off);
       }
     }
