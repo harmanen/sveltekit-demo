@@ -29,12 +29,18 @@
     align-items: center;
     width: 100%;
     height: 100%;
-    border: 2px solid var(--primary-js-on);
+    border: 5px solid var(--primary-js-on);
     border-radius: 25px;
     background-color: var(--dark-gray);
     color: var(--text-color);
     :global(html.no-js) & {
       border-color: var(--primary-js-off);
+    }
+    h3 {
+      color: var(--primary-js-on);
+      :global(html.no-js) {
+        color: var(--primary-js-off);
+      }
     }
     img {
       width: 320px;

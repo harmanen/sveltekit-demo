@@ -41,5 +41,9 @@
     width: 360px;
     height: 430px;
     padding: var(--grid-padding);
+    transition: 0.1s;
+  }
+  .grid-item:hover {
+    transform: scale(1.05);
   }
 </style>
