@@ -1,5 +1,5 @@
 <script lang="ts">
-  import type { MockDataType } from '../../data';
+  import type { MockDataType } from '$mockData';
   import Button from './Button.svelte';
 
   export let item: MockDataType;
