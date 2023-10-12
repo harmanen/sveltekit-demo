@@ -17,7 +17,10 @@
     {item.extract}
   </p>
   <div class="buttons">
-    <Button element="button">placeholder</Button>
+    <Button
+      element="a"
+      href="object/{item.titles.canonical}">View more!</Button
+    >
     <!-- Select a link button to Wikipedia based on the screen width -->
     <div class="wikipedia-link-desktop">
       <Button
