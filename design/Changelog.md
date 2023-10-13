@@ -11,6 +11,10 @@ See [initial design document](./Initial_design.pdf) (created 2023-10-11).
 
 ### 2023-10-13
 
+- Define fonts
+  - Serif (Georgia) for headings
+  - Sans serif (Verdana) for others
+
 - Front page pagination:
   - "Load more" button as default
   - "Next/Previous" buttons for no-JS
