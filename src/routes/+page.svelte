@@ -35,7 +35,7 @@
 </div>
 
 {#if showLoadMoreButton}
-  <div class="load-more-container">
+  <div class="load-more-button-container">
     <Button
       element="button"
       on:click={handleLoadMoreObjects}>Load more objects</Button
@@ -75,10 +75,13 @@
   .grid-item:hover {
     transform: scale(1.05);
   }
-  .load-more-container {
+  .load-more-button-container {
     width: 100%;
     display: flex;
     justify-content: center;
     padding: 10px 0;
+    :global(html.no-js) & {
+      display: none;
+    }
   }
 </style>
