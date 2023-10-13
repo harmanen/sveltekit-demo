@@ -27,23 +27,42 @@
 
 <ObjectsGrid data={selectedData} />
 
-{#if showLoadMoreButton}
-  <div class="load-more-button-container">
+<div class="navigation-container">
+  {#if showLoadMoreButton}
+    <div class="load-more-button-container">
+      <Button
+        element="button"
+        variant="navigation"
+        on:click={handleLoadMoreObjects}>Load more objects</Button
+      >
+    </div>
+  {/if}
+  <div class="no-js-navigation-button">
     <Button
-      element="button"
-      on:click={handleLoadMoreObjects}>Load more objects</Button
+      element="a"
+      variant="navigation"
+      href="/objects/page/2">Next page</Button
     >
   </div>
-{/if}
+</div>
 
 <style lang="scss">
-  .load-more-button-container {
+  .navigation-container {
     width: 100%;
     display: flex;
     justify-content: center;
     padding: 10px 0;
+  }
+  .load-more-button-container {
     :global(html.no-js) & {
       display: none;
+    }
+  }
+  .no-js-navigation-button {
+    display: none;
+    padding-top: 10px;
+    :global(html.no-js) & {
+      display: block;
     }
   }
 </style>
