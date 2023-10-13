@@ -18,6 +18,12 @@ body {
   font-family: Verdana, sans-serif;
 }
 
+// This removes margin when usin data property "extract_html"
+// in the object pages
+p {
+  margin-block: 0;
+}
+
 // Headings
 h1,
 h2,

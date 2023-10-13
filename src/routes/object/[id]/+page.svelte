@@ -14,7 +14,7 @@
   <div class="object-item text-container">
     <div class="text-background">
       <h3>{data.title}</h3>
-      <p>{data.extract}</p>
+      <div class="extract">{@html data.extract_html}</div>
     </div>
   </div>
 </div>
@@ -62,7 +62,7 @@
     border-radius: 25px;
   }
   h3,
-  p {
+  .extract {
     margin: 0;
     color: var(--text-color);
     @media screen and (max-width: '800px') {
@@ -75,7 +75,7 @@
       color: var(--primary-js-off);
     }
   }
-  p {
+  .extract {
     padding-top: 10px;
     @media screen and (min-width: '1000px') {
       font-size: 1.5em;
