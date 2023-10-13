@@ -13,12 +13,12 @@
 
   type $$Props = ButtonComponentElements[Element] & {
     element: Element;
-    variant?: 'primary' | 'secondary';
+    variant?: 'primary' | 'secondary' | 'navigation';
     className?: string;
   };
 
   export let element: Element;
-  export let variant: 'primary' | 'secondary' = 'primary';
+  export let variant: 'primary' | 'secondary' | 'navigation' = 'primary';
   export let className: string = '';
 
   let node: HTMLAnchorElement | HTMLButtonElement;
@@ -50,11 +50,15 @@
     cursor: pointer;
     text-decoration: none;
   }
-  .button-primary {
+  .button-primary,
+  .button-navigation {
     background-color: var(--primary-js-on);
     :global(html.no-js) & {
       background-color: var(--primary-js-off);
     }
+  }
+  .button-navigation {
+    border: 5px solid var(--dark-gray);
   }
   .button-secondary {
     background-color: var(--secondary);
