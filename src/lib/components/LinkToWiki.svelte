@@ -9,14 +9,16 @@
   <Button
     element="a"
     href={urls.desktop}
-    variant="secondary">To Wikipedia</Button
+    variant="secondary"
+    target="_blank">To Wikipedia</Button
   >
 </div>
 <div class="wikipedia-link-mobile">
   <Button
     element="a"
     href={urls.mobile}
-    variant="secondary">To Wikipedia</Button
+    variant="secondary"
+    target="_blank">To Wikipedia</Button
   >
 </div>
 
