@@ -31,7 +31,7 @@
 <svelte:element
   this={element}
   bind:this={node}
-  class="button button-{variant} {className}"
+  class="button button-{variant} button-{element} {className}"
   on:click
   role="button"
   tabindex="0"
@@ -58,5 +58,9 @@
   }
   .button-secondary {
     background-color: var(--secondary);
+  }
+  .button-button {
+    font-size: 1em;
+    font-weight: 700;
   }
 </style>
