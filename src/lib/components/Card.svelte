@@ -20,7 +20,7 @@
   <div class="buttons">
     <Button
       element="a"
-      href="object/{item.titles.canonical}">View more!</Button
+      href="/object/{item.titles.canonical}">View more!</Button
     >
     <LinkToWiki
       urls={{
