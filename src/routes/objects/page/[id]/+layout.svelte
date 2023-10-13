@@ -1,8 +1,6 @@
 <script>
   import { page } from '$app/stores';
   import Button from '$components/Button.svelte';
-
-  $: console.log($page.data.mockData.length);
 </script>
 
 <div class="objects-page-layout">
@@ -18,7 +16,7 @@
         >
       </div>
     {/if}
-    {#if $page.data.mockData.length === 5}
+    {#if $page.params.id < $page.data.lastPage}
       <div class="navigation-button-container">
         <Button
           element="a"
