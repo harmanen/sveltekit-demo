@@ -644,4 +644,493 @@ export const mockData: Array<MockDataType> = [
     extract_html:
       '<p>The <b>Whirlpool Galaxy</b>, also known as <b>Messier 51a</b> (<b>M51a</b>) or <b>NGC 5194</b>, is an interacting grand-design spiral galaxy with a Seyfert 2 active galactic nucleus. It lies in the constellation Canes Venatici, and was the first galaxy to be classified as a spiral galaxy. It is 32 million light-years away and 109,000 ly (33,280 pc) in diameter.</p>',
   },
+  {
+    type: 'standard',
+    title: 'Pinwheel Galaxy',
+    displaytitle: '<span class="mw-page-title-main">Pinwheel Galaxy</span>',
+    namespace: {
+      id: 0,
+      text: '',
+    },
+    wikibase_item: 'Q14371',
+    titles: {
+      canonical: 'Pinwheel_Galaxy',
+      normalized: 'Pinwheel Galaxy',
+      display: '<span class="mw-page-title-main">Pinwheel Galaxy</span>',
+    },
+    pageid: 319122,
+    thumbnail: {
+      source:
+        'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/M101_hires_STScI-PRC2006-10a.jpg/320px-M101_hires_STScI-PRC2006-10a.jpg',
+      width: 320,
+      height: 250,
+    },
+    originalimage: {
+      source:
+        'https://upload.wikimedia.org/wikipedia/commons/c/c5/M101_hires_STScI-PRC2006-10a.jpg',
+      width: 15852,
+      height: 12392,
+    },
+    lang: 'en',
+    dir: 'ltr',
+    revision: '1175542017',
+    tid: '87ccafd0-67c9-11ee-9b66-a507917c47f1',
+    timestamp: '2023-09-15T19:20:32Z',
+    description: 'Galaxy in the constellation Ursa Major',
+    description_source: 'local',
+    content_urls: {
+      desktop: {
+        page: 'https://en.wikipedia.org/wiki/Pinwheel_Galaxy',
+        revisions:
+          'https://en.wikipedia.org/wiki/Pinwheel_Galaxy?action=history',
+        edit: 'https://en.wikipedia.org/wiki/Pinwheel_Galaxy?action=edit',
+        talk: 'https://en.wikipedia.org/wiki/Talk:Pinwheel_Galaxy',
+      },
+      mobile: {
+        page: 'https://en.m.wikipedia.org/wiki/Pinwheel_Galaxy',
+        revisions:
+          'https://en.m.wikipedia.org/wiki/Special:History/Pinwheel_Galaxy',
+        edit: 'https://en.m.wikipedia.org/wiki/Pinwheel_Galaxy?action=edit',
+        talk: 'https://en.m.wikipedia.org/wiki/Talk:Pinwheel_Galaxy',
+      },
+    },
+    extract:
+      'The Pinwheel Galaxy is a face-on spiral galaxy 21 million light-years away from Earth in the constellation Ursa Major. It was discovered by Pierre Méchain in 1781 and was communicated that year to Charles Messier, who verified its position for inclusion in the Messier Catalogue as one of its final entries.',
+    extract_html:
+      '<p>The <b>Pinwheel Galaxy</b> is a face-on spiral galaxy 21 million light-years away from Earth in the constellation Ursa Major. It was discovered by Pierre Méchain in 1781 and was communicated that year to Charles Messier, who verified its position for inclusion in the <i>Messier Catalogue</i> as one of its final entries.</p>',
+  },
+  {
+    type: 'standard',
+    title: 'Messier 77',
+    displaytitle: '<span class="mw-page-title-main">Messier 77</span>',
+    namespace: {
+      id: 0,
+      text: '',
+    },
+    wikibase_item: 'Q14017',
+    titles: {
+      canonical: 'Messier_77',
+      normalized: 'Messier 77',
+      display: '<span class="mw-page-title-main">Messier 77</span>',
+    },
+    pageid: 967488,
+    thumbnail: {
+      source:
+        'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Messier_77_spiral_galaxy_by_HST.jpg/320px-Messier_77_spiral_galaxy_by_HST.jpg',
+      width: 320,
+      height: 252,
+    },
+    originalimage: {
+      source:
+        'https://upload.wikimedia.org/wikipedia/commons/d/d9/Messier_77_spiral_galaxy_by_HST.jpg',
+      width: 2948,
+      height: 2321,
+    },
+    lang: 'en',
+    dir: 'ltr',
+    revision: '1171542366',
+    tid: 'fbb85620-69d0-11ee-85ed-6363cc12b1ee',
+    timestamp: '2023-08-21T19:16:32Z',
+    description: 'Barred spiral galaxy in the constellation Cetus',
+    description_source: 'local',
+    content_urls: {
+      desktop: {
+        page: 'https://en.wikipedia.org/wiki/Messier_77',
+        revisions: 'https://en.wikipedia.org/wiki/Messier_77?action=history',
+        edit: 'https://en.wikipedia.org/wiki/Messier_77?action=edit',
+        talk: 'https://en.wikipedia.org/wiki/Talk:Messier_77',
+      },
+      mobile: {
+        page: 'https://en.m.wikipedia.org/wiki/Messier_77',
+        revisions: 'https://en.m.wikipedia.org/wiki/Special:History/Messier_77',
+        edit: 'https://en.m.wikipedia.org/wiki/Messier_77?action=edit',
+        talk: 'https://en.m.wikipedia.org/wiki/Talk:Messier_77',
+      },
+    },
+    extract:
+      'Messier 77 (M77), also known as NGC 1068 or the Squid Galaxy, is a barred spiral galaxy in the constellation Cetus. It is about 47 million light-years (14 Mpc) away from Earth. Messier 77 was discovered by Pierre Méchain in 1780, who originally described it as a nebula. Méchain then communicated his discovery to Charles Messier, who subsequently listed the object in his catalog. Both Messier and William Herschel described this galaxy as a star cluster. Today, however, the object is known to be a galaxy.',
+    extract_html:
+      '<p><b>Messier 77</b> (<b>M77</b>), also known as <b>NGC 1068</b> or the <b>Squid Galaxy</b>, is a barred spiral galaxy in the constellation Cetus. It is about 47 million light-years (14 Mpc) away from Earth. Messier 77 was discovered by Pierre Méchain in 1780, who originally described it as a nebula. Méchain then communicated his discovery to Charles Messier, who subsequently listed the object in his catalog. Both Messier and William Herschel described this galaxy as a star cluster. Today, however, the object is known to be a galaxy.</p>',
+  },
+  {
+    type: 'standard',
+    title: 'Messier 100',
+    displaytitle: '<span class="mw-page-title-main">Messier 100</span>',
+    namespace: {
+      id: 0,
+      text: '',
+    },
+    wikibase_item: 'Q14365',
+    titles: {
+      canonical: 'Messier_100',
+      normalized: 'Messier 100',
+      display: '<span class="mw-page-title-main">Messier 100</span>',
+    },
+    pageid: 142339,
+    thumbnail: {
+      source:
+        'https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Messier_100_%E2%80%94_Grand_Design_Splendour.jpg/320px-Messier_100_%E2%80%94_Grand_Design_Splendour.jpg',
+      width: 320,
+      height: 240,
+    },
+    originalimage: {
+      source:
+        'https://upload.wikimedia.org/wikipedia/commons/8/85/Messier_100_%E2%80%94_Grand_Design_Splendour.jpg',
+      width: 1257,
+      height: 943,
+    },
+    lang: 'en',
+    dir: 'ltr',
+    revision: '1174966855',
+    tid: 'f7a25a40-67c3-11ee-8ef5-07b6d19a6ac6',
+    timestamp: '2023-09-11T21:59:19Z',
+    description: 'Galaxy in the constellation Coma Berenices',
+    description_source: 'local',
+    content_urls: {
+      desktop: {
+        page: 'https://en.wikipedia.org/wiki/Messier_100',
+        revisions: 'https://en.wikipedia.org/wiki/Messier_100?action=history',
+        edit: 'https://en.wikipedia.org/wiki/Messier_100?action=edit',
+        talk: 'https://en.wikipedia.org/wiki/Talk:Messier_100',
+      },
+      mobile: {
+        page: 'https://en.m.wikipedia.org/wiki/Messier_100',
+        revisions:
+          'https://en.m.wikipedia.org/wiki/Special:History/Messier_100',
+        edit: 'https://en.m.wikipedia.org/wiki/Messier_100?action=edit',
+        talk: 'https://en.m.wikipedia.org/wiki/Talk:Messier_100',
+      },
+    },
+    extract:
+      'Messier 100 is a grand design intermediate spiral galaxy in the southern part of the mildly northern Coma Berenices. It is one of the brightest and largest galaxies in the Virgo Cluster and is approximately 55 million light-years from our galaxy, its diameter being 107,000 light years, and being about 60% as large. It was discovered by Pierre Méchain in 1781 and 29 days later seen again and entered by Charles Messier in his catalogue "of nebulae and star clusters".. It was one of the first spiral galaxies to be discovered, and was listed as one of fourteen spiral nebulae by Lord William Parsons of Rosse in 1850. NGC 4323 and NGC 4328 are satellite galaxies of M100; the former is connected with it by a bridge of luminous matter.',
+    extract_html:
+      '<p><b>Messier 100</b> is a grand design intermediate spiral galaxy in the southern part of the mildly northern Coma Berenices. It is one of the brightest and largest galaxies in the Virgo Cluster and is approximately 55 million light-years from our galaxy, its diameter being 107,000 light years, and being about 60% as large. It was discovered by Pierre Méchain in 1781 and 29 days later seen again and entered by Charles Messier in his catalogue "of nebulae and star clusters".. It was one of the first spiral galaxies to be discovered, and was listed as one of fourteen spiral nebulae by Lord William Parsons of Rosse in 1850. NGC 4323 and NGC 4328 are satellite galaxies of M100; the former is connected with it by a bridge of luminous matter.</p>',
+  },
+  {
+    type: 'standard',
+    title: 'Andromeda Galaxy',
+    displaytitle: '<span class="mw-page-title-main">Andromeda Galaxy</span>',
+    namespace: {
+      id: 0,
+      text: '',
+    },
+    wikibase_item: 'Q2469',
+    titles: {
+      canonical: 'Andromeda_Galaxy',
+      normalized: 'Andromeda Galaxy',
+      display: '<span class="mw-page-title-main">Andromeda Galaxy</span>',
+    },
+    pageid: 74331,
+    thumbnail: {
+      source:
+        'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/M31_09-01-2011_%28cropped%29.jpg/320px-M31_09-01-2011_%28cropped%29.jpg',
+      width: 320,
+      height: 229,
+    },
+    originalimage: {
+      source:
+        'https://upload.wikimedia.org/wikipedia/commons/c/c2/M31_09-01-2011_%28cropped%29.jpg',
+      width: 3500,
+      height: 2500,
+    },
+    lang: 'en',
+    dir: 'ltr',
+    revision: '1179882463',
+    tid: 'edc27210-6969-11ee-b37a-81b34085db30',
+    timestamp: '2023-10-13T01:43:30Z',
+    description: 'Barred spiral galaxy in the Local Group',
+    description_source: 'local',
+    content_urls: {
+      desktop: {
+        page: 'https://en.wikipedia.org/wiki/Andromeda_Galaxy',
+        revisions:
+          'https://en.wikipedia.org/wiki/Andromeda_Galaxy?action=history',
+        edit: 'https://en.wikipedia.org/wiki/Andromeda_Galaxy?action=edit',
+        talk: 'https://en.wikipedia.org/wiki/Talk:Andromeda_Galaxy',
+      },
+      mobile: {
+        page: 'https://en.m.wikipedia.org/wiki/Andromeda_Galaxy',
+        revisions:
+          'https://en.m.wikipedia.org/wiki/Special:History/Andromeda_Galaxy',
+        edit: 'https://en.m.wikipedia.org/wiki/Andromeda_Galaxy?action=edit',
+        talk: 'https://en.m.wikipedia.org/wiki/Talk:Andromeda_Galaxy',
+      },
+    },
+    extract:
+      "The Andromeda Galaxy is a barred spiral galaxy and is the nearest major galaxy to the Milky Way. It was originally named the Andromeda Nebula and is cataloged as Messier 31, M31, and NGC 224. Andromeda has a diameter of about 46.56 kiloparsecs and is approximately 765 kpc from Earth. The galaxy's name stems from the area of Earth's sky in which it appears, the constellation of Andromeda, which itself is named after the princess who was the wife of Perseus in Greek mythology.",
+    extract_html:
+      "<p>The <b>Andromeda Galaxy</b> is a barred spiral galaxy and is the nearest major galaxy to the Milky Way. It was originally named the <b>Andromeda Nebula</b> and is cataloged as <b>Messier 31</b>, <b>M31</b>, and <b>NGC 224</b>. Andromeda has a diameter of about 46.56 kiloparsecs and is approximately 765 kpc from Earth. The galaxy's name stems from the area of Earth's sky in which it appears, the constellation of Andromeda, which itself is named after the princess who was the wife of Perseus in Greek mythology.</p>",
+  },
+  {
+    type: 'standard',
+    title: 'Comet NEOWISE',
+    displaytitle: '<span class="mw-page-title-main">Comet NEOWISE</span>',
+    namespace: {
+      id: 0,
+      text: '',
+    },
+    wikibase_item: 'Q90776919',
+    titles: {
+      canonical: 'Comet_NEOWISE',
+      normalized: 'Comet NEOWISE',
+      display: '<span class="mw-page-title-main">Comet NEOWISE</span>',
+    },
+    pageid: 63552467,
+    thumbnail: {
+      source:
+        'https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Comet_2020_F3_%28NEOWISE%29_on_Jul_14_2020_aligned_to_stars.jpg/320px-Comet_2020_F3_%28NEOWISE%29_on_Jul_14_2020_aligned_to_stars.jpg',
+      width: 320,
+      height: 221,
+    },
+    originalimage: {
+      source:
+        'https://upload.wikimedia.org/wikipedia/commons/b/ba/Comet_2020_F3_%28NEOWISE%29_on_Jul_14_2020_aligned_to_stars.jpg',
+      width: 2900,
+      height: 2000,
+    },
+    lang: 'en',
+    dir: 'ltr',
+    revision: '1178136019',
+    tid: 'a7399b90-6098-11ee-b4f1-ddec6610cc2e',
+    timestamp: '2023-10-01T20:25:22Z',
+    description: 'Bright comet of July 2020',
+    description_source: 'local',
+    content_urls: {
+      desktop: {
+        page: 'https://en.wikipedia.org/wiki/Comet_NEOWISE',
+        revisions: 'https://en.wikipedia.org/wiki/Comet_NEOWISE?action=history',
+        edit: 'https://en.wikipedia.org/wiki/Comet_NEOWISE?action=edit',
+        talk: 'https://en.wikipedia.org/wiki/Talk:Comet_NEOWISE',
+      },
+      mobile: {
+        page: 'https://en.m.wikipedia.org/wiki/Comet_NEOWISE',
+        revisions:
+          'https://en.m.wikipedia.org/wiki/Special:History/Comet_NEOWISE',
+        edit: 'https://en.m.wikipedia.org/wiki/Comet_NEOWISE?action=edit',
+        talk: 'https://en.m.wikipedia.org/wiki/Talk:Comet_NEOWISE',
+      },
+    },
+    extract:
+      'C/2020 F3 (NEOWISE) or Comet NEOWISE is a long period comet with a near-parabolic orbit discovered on March 27, 2020, by astronomers during the NEOWISE mission of the Wide-field Infrared Survey Explorer (WISE) space telescope. At that time, it was an 18th-magnitude object, located 2 AU away from the Sun and 1.7 AU away from Earth.',
+    extract_html:
+      '<p><b>C/2020 F3 (NEOWISE)</b> or <b>Comet NEOWISE</b> is a long period comet with a near-parabolic orbit discovered on March 27, 2020, by astronomers during the <i>NEOWISE</i> mission of the Wide-field Infrared Survey Explorer (WISE) space telescope. At that time, it was an 18th-magnitude object, located 2 AU away from the Sun and 1.7 AU away from Earth.</p>',
+  },
+  {
+    type: 'standard',
+    title: 'Comet McNaught',
+    displaytitle: '<span class="mw-page-title-main">Comet McNaught</span>',
+    namespace: {
+      id: 0,
+      text: '',
+    },
+    wikibase_item: 'Q4705',
+    titles: {
+      canonical: 'Comet_McNaught',
+      normalized: 'Comet McNaught',
+      display: '<span class="mw-page-title-main">Comet McNaught</span>',
+    },
+    pageid: 8779868,
+    thumbnail: {
+      source:
+        'https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Comet_P1_McNaught02_-_23-01-07.jpg/320px-Comet_P1_McNaught02_-_23-01-07.jpg',
+      width: 320,
+      height: 213,
+    },
+    originalimage: {
+      source:
+        'https://upload.wikimedia.org/wikipedia/commons/1/15/Comet_P1_McNaught02_-_23-01-07.jpg',
+      width: 1600,
+      height: 1067,
+    },
+    lang: 'en',
+    dir: 'ltr',
+    revision: '1162440485',
+    tid: 'e2bc4350-67e3-11ee-ae0c-3908f8debfef',
+    timestamp: '2023-06-29T05:39:07Z',
+    description: 'Non-periodic comet',
+    description_source: 'local',
+    content_urls: {
+      desktop: {
+        page: 'https://en.wikipedia.org/wiki/Comet_McNaught',
+        revisions:
+          'https://en.wikipedia.org/wiki/Comet_McNaught?action=history',
+        edit: 'https://en.wikipedia.org/wiki/Comet_McNaught?action=edit',
+        talk: 'https://en.wikipedia.org/wiki/Talk:Comet_McNaught',
+      },
+      mobile: {
+        page: 'https://en.m.wikipedia.org/wiki/Comet_McNaught',
+        revisions:
+          'https://en.m.wikipedia.org/wiki/Special:History/Comet_McNaught',
+        edit: 'https://en.m.wikipedia.org/wiki/Comet_McNaught?action=edit',
+        talk: 'https://en.m.wikipedia.org/wiki/Talk:Comet_McNaught',
+      },
+    },
+    extract:
+      'Comet McNaught, also known as the Great Comet of 2007 and given the designation C/2006 P1, is a non-periodic comet discovered on 7 August 2006 by British-Australian astronomer Robert H. McNaught using the Uppsala Southern Schmidt Telescope. It was the brightest comet in over 40 years, and was easily visible to the naked eye for observers in the Southern Hemisphere in January and February 2007.',
+    extract_html:
+      '<p><b>Comet McNaught</b>, also known as the <b>Great Comet of 2007</b> and given the designation <b>C/2006 P1</b>, is a non-periodic comet discovered on 7 August 2006 by British-Australian astronomer Robert H. McNaught using the Uppsala Southern Schmidt Telescope. It was the brightest comet in over 40 years, and was easily visible to the naked eye for observers in the Southern Hemisphere in January and February 2007.</p>',
+  },
+  {
+    type: 'standard',
+    title: 'Comet Hale–Bopp',
+    displaytitle: '<span class="mw-page-title-main">Comet Hale–Bopp</span>',
+    namespace: {
+      id: 0,
+      text: '',
+    },
+    wikibase_item: 'Q69854',
+    titles: {
+      canonical: 'Comet_Hale–Bopp',
+      normalized: 'Comet Hale–Bopp',
+      display: '<span class="mw-page-title-main">Comet Hale–Bopp</span>',
+    },
+    pageid: 7227,
+    thumbnail: {
+      source:
+        'https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Comet_Hale-Bopp_1995O1.jpg/320px-Comet_Hale-Bopp_1995O1.jpg',
+      width: 320,
+      height: 320,
+    },
+    originalimage: {
+      source:
+        'https://upload.wikimedia.org/wikipedia/commons/b/ba/Comet_Hale-Bopp_1995O1.jpg',
+      width: 1500,
+      height: 1500,
+    },
+    lang: 'en',
+    dir: 'ltr',
+    revision: '1179411552',
+    tid: '921d7cf0-67bd-11ee-a08f-89e59157f9e9',
+    timestamp: '2023-10-09T23:41:58Z',
+    description: 'Long-period comet',
+    description_source: 'local',
+    content_urls: {
+      desktop: {
+        page: 'https://en.wikipedia.org/wiki/Comet_Hale%E2%80%93Bopp',
+        revisions:
+          'https://en.wikipedia.org/wiki/Comet_Hale%E2%80%93Bopp?action=history',
+        edit: 'https://en.wikipedia.org/wiki/Comet_Hale%E2%80%93Bopp?action=edit',
+        talk: 'https://en.wikipedia.org/wiki/Talk:Comet_Hale%E2%80%93Bopp',
+      },
+      mobile: {
+        page: 'https://en.m.wikipedia.org/wiki/Comet_Hale%E2%80%93Bopp',
+        revisions:
+          'https://en.m.wikipedia.org/wiki/Special:History/Comet_Hale%E2%80%93Bopp',
+        edit: 'https://en.m.wikipedia.org/wiki/Comet_Hale%E2%80%93Bopp?action=edit',
+        talk: 'https://en.m.wikipedia.org/wiki/Talk:Comet_Hale%E2%80%93Bopp',
+      },
+    },
+    extract:
+      'Comet Hale–Bopp is a comet that was one of the most widely observed of the 20th century and one of the brightest seen for many decades.',
+    extract_html:
+      '<p><b>Comet Hale–Bopp</b> is a comet that was one of the most widely observed of the 20th century and one of the brightest seen for many decades.</p>',
+  },
+  {
+    type: 'standard',
+    title: 'Comet Hyakutake',
+    displaytitle: '<span class="mw-page-title-main">Comet Hyakutake</span>',
+    namespace: {
+      id: 0,
+      text: '',
+    },
+    wikibase_item: 'Q16741',
+    titles: {
+      canonical: 'Comet_Hyakutake',
+      normalized: 'Comet Hyakutake',
+      display: '<span class="mw-page-title-main">Comet Hyakutake</span>',
+    },
+    pageid: 141738,
+    thumbnail: {
+      source:
+        'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Komet_Hyakutake_von_Franz_Haar_%281%29.jpg/320px-Komet_Hyakutake_von_Franz_Haar_%281%29.jpg',
+      width: 320,
+      height: 213,
+    },
+    originalimage: {
+      source:
+        'https://upload.wikimedia.org/wikipedia/commons/0/0a/Komet_Hyakutake_von_Franz_Haar_%281%29.jpg',
+      width: 719,
+      height: 479,
+    },
+    lang: 'en',
+    dir: 'ltr',
+    revision: '1177321670',
+    tid: '20893d20-67c4-11ee-a266-d9e94c6e77f6',
+    timestamp: '2023-09-27T05:03:53Z',
+    description: 'Comet that passed close to Earth in March 1996',
+    description_source: 'local',
+    content_urls: {
+      desktop: {
+        page: 'https://en.wikipedia.org/wiki/Comet_Hyakutake',
+        revisions:
+          'https://en.wikipedia.org/wiki/Comet_Hyakutake?action=history',
+        edit: 'https://en.wikipedia.org/wiki/Comet_Hyakutake?action=edit',
+        talk: 'https://en.wikipedia.org/wiki/Talk:Comet_Hyakutake',
+      },
+      mobile: {
+        page: 'https://en.m.wikipedia.org/wiki/Comet_Hyakutake',
+        revisions:
+          'https://en.m.wikipedia.org/wiki/Special:History/Comet_Hyakutake',
+        edit: 'https://en.m.wikipedia.org/wiki/Comet_Hyakutake?action=edit',
+        talk: 'https://en.m.wikipedia.org/wiki/Talk:Comet_Hyakutake',
+      },
+    },
+    extract:
+      'Comet Hyakutake is a comet discovered on 31 January 1996. It was dubbed the Great Comet of 1996; its passage to within 0.1 AU (15 Gm) of the Earth on 25 March was one of the closest cometary approaches of the previous 200 years. Reaching an apparent visual magnitude of zero and spanning nearly 80°, Hyakutake appeared very bright in the night sky and was widely seen around the world. The comet temporarily upstaged the much anticipated Comet Hale–Bopp, which was approaching the inner Solar System at the time.',
+    extract_html:
+      '<p><b>Comet Hyakutake</b> is a comet discovered on 31 January 1996. It was dubbed the <b>Great Comet of 1996</b>; its passage to within 0.1 AU (15 Gm) of the Earth on 25 March was one of the closest cometary approaches of the previous 200 years. Reaching an apparent visual magnitude of zero and spanning nearly 80°, Hyakutake appeared very bright in the night sky and was widely seen around the world. The comet temporarily upstaged the much anticipated Comet Hale–Bopp, which was approaching the inner Solar System at the time.</p>',
+  },
+  {
+    type: 'standard',
+    title: 'Comet West',
+    displaytitle: '<span class="mw-page-title-main">Comet West</span>',
+    namespace: {
+      id: 0,
+      text: '',
+    },
+    wikibase_item: 'Q677840',
+    titles: {
+      canonical: 'Comet_West',
+      normalized: 'Comet West',
+      display: '<span class="mw-page-title-main">Comet West</span>',
+    },
+    pageid: 592213,
+    thumbnail: {
+      source:
+        'https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/C-west-1976-ps.jpg/320px-C-west-1976-ps.jpg',
+      width: 320,
+      height: 252,
+    },
+    originalimage: {
+      source:
+        'https://upload.wikimedia.org/wikipedia/commons/0/07/C-west-1976-ps.jpg',
+      width: 5393,
+      height: 4252,
+    },
+    lang: 'en',
+    dir: 'ltr',
+    revision: '1144176505',
+    tid: '17ad2b20-67cf-11ee-98d4-8d29e3e25911',
+    timestamp: '2023-03-12T06:38:37Z',
+    description: 'Icy small Solar System body; passed closest to Earth in 1976',
+    description_source: 'local',
+    content_urls: {
+      desktop: {
+        page: 'https://en.wikipedia.org/wiki/Comet_West',
+        revisions: 'https://en.wikipedia.org/wiki/Comet_West?action=history',
+        edit: 'https://en.wikipedia.org/wiki/Comet_West?action=edit',
+        talk: 'https://en.wikipedia.org/wiki/Talk:Comet_West',
+      },
+      mobile: {
+        page: 'https://en.m.wikipedia.org/wiki/Comet_West',
+        revisions: 'https://en.m.wikipedia.org/wiki/Special:History/Comet_West',
+        edit: 'https://en.m.wikipedia.org/wiki/Comet_West?action=edit',
+        talk: 'https://en.m.wikipedia.org/wiki/Talk:Comet_West',
+      },
+    },
+    extract:
+      'Comet West, formally designated C/1975 V1, 1976 VI, and 1975n, was a comet described as one of the brightest objects to pass through the inner Solar System in 1976. It is often described as a "great comet."',
+    extract_html:
+      '<p><b>Comet West</b>, formally designated <b>C/1975 V1</b>, <b>1976 VI</b>, and <b>1975n</b>, was a comet described as one of the brightest objects to pass through the inner Solar System in 1976. It is often described as a "great comet."</p>',
+  },
 ];
