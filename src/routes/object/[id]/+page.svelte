@@ -65,5 +65,20 @@
   p {
     margin: 0;
     color: var(--text-color);
+    @media screen and (max-width: '800px') {
+      text-align: center;
+    }
+  }
+  h3 {
+    color: var(--primary-js-on);
+    :global(html.no-js) & {
+      color: var(--primary-js-off);
+    }
+  }
+  p {
+    padding-top: 10px;
+    @media screen and (min-width: '1000px') {
+      font-size: 1.5em;
+    }
   }
 </style>
