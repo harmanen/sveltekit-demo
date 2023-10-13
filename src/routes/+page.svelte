@@ -16,6 +16,9 @@
     if (i + 5 <= data.mockData.length) {
       // Load a full row of 5 more items
       selectedData = [...selectedData, ...data.mockData.slice(i, i + 5)];
+      if (selectedData.length === data.mockData.length) {
+        showLoadMoreButton = false;
+      }
       i += 5;
     } else {
       // Load the rest of items and hide the load more button
