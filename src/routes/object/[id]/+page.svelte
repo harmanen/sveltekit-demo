@@ -1,4 +1,5 @@
 <script lang="ts">
+  import LinkToWiki from '$components/LinkToWiki.svelte';
   import type { PageData } from './$types';
 
   export let data: PageData;
@@ -15,6 +16,14 @@
     <div class="text-background">
       <h3>{data.title}</h3>
       <div class="extract">{@html data.extract_html}</div>
+      <div class="link-button-container">
+        <LinkToWiki
+          urls={{
+            desktop: data.content_urls?.desktop.page || '',
+            mobile: data.content_urls?.mobile.page || '',
+          }}
+        />
+      </div>
     </div>
   </div>
 </div>
@@ -56,6 +65,12 @@
     height: calc(100% - 2 * 20px);
     border-radius: 25px;
     padding: 20px 20px 20px;
+  }
+  .link-button-container {
+    padding: 30px 0;
+    @media screen and (max-width: '1000px') {
+      text-align: center;
+    }
   }
   img {
     width: 100%;
