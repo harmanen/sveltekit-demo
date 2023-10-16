@@ -9,7 +9,10 @@
 
 <div class="object-container">
   <div class="object-item image-container">
-    <a href={imageUrl}>
+    <a
+      href={imageUrl}
+      target="_blank"
+    >
       <img
         src={imageUrl}
         alt="An image of {data.title} which is {data.description}"
