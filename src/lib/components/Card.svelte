@@ -39,8 +39,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
-    height: 100%;
+    height: calc(100% - var(--grid-padding));
     border: 5px solid var(--primary-js-on);
     border-radius: 25px;
     background-color: var(--dark-gray);
