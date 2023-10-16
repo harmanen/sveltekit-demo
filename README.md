@@ -1,6 +1,6 @@
 # SvelteKit demo
 
-A small demo app build using Svelte and SvelteKit.
+A small demo app build using Svelte and SvelteKit. See design documentation [here](./design/).
 
 ## Requisites
 

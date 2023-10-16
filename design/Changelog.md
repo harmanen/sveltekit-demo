@@ -18,3 +18,7 @@ See [initial design document](./Initial_design.pdf) (created 2023-10-11).
 - Front page pagination:
   - "Load more" button as default
   - "Next/Previous" buttons for no-JS
+
+### 2023-10-16
+
+- Images as links
