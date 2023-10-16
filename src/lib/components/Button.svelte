@@ -49,6 +49,9 @@
     border-radius: 10px;
     cursor: pointer;
     text-decoration: none;
+    &:hover {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.1) 0 0);
+    }
     @media screen and (max-width: '450px') {
       font-size: 0.9em;
     }
