@@ -10,7 +10,11 @@
   <h3>
     {item.title}
   </h3>
-  <a href="/object/{item.titles.canonical}">
+  <a
+    href="/object/{item.titles.canonical}"
+    aria-hidden="true"
+    tabindex="-1"
+  >
     <img
       src={item.thumbnail.source}
       alt="An image of {item.title} which is {item.description}"
