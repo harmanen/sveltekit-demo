@@ -3,7 +3,7 @@
 </script>
 
 <div class="topbar">
-  <h1>SvelteKit demo</h1>
+  <h1><a href="/">SvelteKit demo</a></h1>
   <!-- "JavaScript is on/off" is conditionally rendered and color selected 
   based on the html.no-js class -->
   <h2>JavaScript is <span class="on">on</span><span class="off">off</span></h2>
@@ -47,6 +47,10 @@
     :global(html.no-js) & {
       color: var(--primary-js-off);
     }
+  }
+  a {
+    text-decoration: none;
+    color: var(--text-color);
   }
   span.on {
     :global(html.no-js) & {
