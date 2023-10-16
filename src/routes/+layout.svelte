@@ -2,14 +2,20 @@
   import '../styles/main.scss';
 </script>
 
-<div class="topbar">
+<div
+  class="topbar"
+  role="banner"
+>
   <h1><a href="/">SvelteKit demo</a></h1>
   <!-- "JavaScript is on/off" is conditionally rendered and color selected 
   based on the html.no-js class -->
   <h2>JavaScript is <span class="on">on</span><span class="off">off</span></h2>
 </div>
 
-<div class="page-container">
+<div
+  class="page-container"
+  role="main"
+>
   <slot />
 </div>
 
