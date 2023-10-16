@@ -7,7 +7,10 @@
 
 <div class="grid-container">
   {#each data as item}
-    <div class="grid-item">
+    <div
+      class="grid-item"
+      data-testid="grid-item"
+    >
       <Card {item} />
     </div>
   {/each}
