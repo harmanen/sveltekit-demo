@@ -49,6 +49,9 @@
     border-radius: 10px;
     cursor: pointer;
     text-decoration: none;
+    @media screen and (max-width: '450px') {
+      font-size: 0.9em;
+    }
   }
   .button-primary,
   .button-navigation {

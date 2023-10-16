@@ -60,6 +60,9 @@
     }
     p {
       padding: 0 20px 0 20px;
+      @media screen and (max-width: '450px') {
+        font-size: 0.9em;
+      }
     }
     .buttons {
       width: 100%;

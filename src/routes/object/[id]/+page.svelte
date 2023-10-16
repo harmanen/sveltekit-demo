@@ -102,5 +102,8 @@
     @media screen and (min-width: '1000px') {
       font-size: 1.5em;
     }
+    @media screen and (max-width: '450px') {
+      font-size: 0.9em;
+    }
   }
 </style>

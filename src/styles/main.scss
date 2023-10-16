@@ -12,6 +12,7 @@
   // Layout
   --top-bar-height: 150px;
   --grid-padding: 10px; // For container around grid + grid items
+  --mobile-width: 450px; // Scale everything dynamically below this width
 }
 
 body {
@@ -39,21 +40,39 @@ h6 {
 }
 h1 {
   font-size: functions.toRem(36);
+  @media screen and (max-width: '450px') {
+    font-size: functions.toRem(30);
+  }
 }
 h2 {
   font-size: functions.toRem(32);
+  @media screen and (max-width: '450px') {
+    font-size: functions.toRem(26);
+  }
 }
 h3 {
   font-size: functions.toRem(28);
+  @media screen and (max-width: '450px') {
+    font-size: functions.toRem(22);
+  }
 }
 h4 {
   font-size: functions.toRem(24);
+  @media screen and (max-width: '450px') {
+    font-size: functions.toRem(18);
+  }
 }
 h5 {
   font-size: functions.toRem(20);
+  @media screen and (max-width: '450px') {
+    font-size: functions.toRem(14);
+  }
 }
 h6 {
   font-size: functions.toRem(16);
+  @media screen and (max-width: '450px') {
+    font-size: functions.toRem(10);
+  }
 }
 
 // A helper function to create truncate classes for 1, 2, or 3 lines of text
