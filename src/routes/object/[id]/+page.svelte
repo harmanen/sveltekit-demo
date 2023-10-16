@@ -3,14 +3,18 @@
   import type { PageData } from './$types';
 
   export let data: PageData;
+
+  let imageUrl = data.thumbnail?.source;
 </script>
 
 <div class="object-container">
   <div class="object-item image-container">
-    <img
-      src={data.thumbnail?.source}
-      alt="An image of {data.title} which is {data.description}"
-    />
+    <a href={imageUrl}>
+      <img
+        src={imageUrl}
+        alt="An image of {data.title} which is {data.description}"
+      />
+    </a>
   </div>
   <div class="object-item text-container">
     <div class="text-background">
@@ -71,6 +75,9 @@
     @media screen and (max-width: '1000px') {
       text-align: center;
     }
+  }
+  a {
+    width: 100%;
   }
   img {
     width: 100%;
