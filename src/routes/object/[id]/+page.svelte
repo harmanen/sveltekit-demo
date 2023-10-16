@@ -3,18 +3,16 @@
   import type { PageData } from './$types';
 
   export let data: PageData;
-
-  let imageUrl = data.thumbnail?.source;
 </script>
 
 <div class="object-container">
   <div class="object-item image-container">
     <a
-      href={imageUrl}
+      href={data.originalimage?.source}
       target="_blank"
     >
       <img
-        src={imageUrl}
+        src={data.thumbnail?.source}
         alt="An image of {data.title} which is {data.description}"
       />
     </a>
@@ -23,6 +21,9 @@
     <div class="text-background">
       <h3>{data.title}</h3>
       <div class="extract">{@html data.extract_html}</div>
+      <div class="instructions">
+        Click the image to see it in full resolution!
+      </div>
       <div class="link-button-container">
         <LinkToWiki
           urls={{
@@ -87,7 +88,8 @@
     border-radius: 25px;
   }
   h3,
-  .extract {
+  .extract,
+  .instructions {
     margin: 0;
     color: var(--text-color);
     @media screen and (max-width: '800px') {
@@ -100,7 +102,8 @@
       color: var(--primary-js-off);
     }
   }
-  .extract {
+  .extract,
+  .instructions {
     padding-top: 10px;
     @media screen and (min-width: '1000px') {
       font-size: 1.5em;
@@ -108,5 +111,8 @@
     @media screen and (max-width: '450px') {
       font-size: 0.9em;
     }
+  }
+  .instructions {
+    padding: 20px 0;
   }
 </style>
