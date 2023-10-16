@@ -10,10 +10,12 @@
   <h3>
     {item.title}
   </h3>
-  <img
-    src={item.thumbnail.source}
-    alt="An image of {item.title} which is {item.description}"
-  />
+  <a href="/object/{item.titles.canonical}">
+    <img
+      src={item.thumbnail.source}
+      alt="An image of {item.title} which is {item.description}"
+    />
+  </a>
   <p class="extract truncate-3">
     {item.extract}
   </p>
