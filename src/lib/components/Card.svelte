@@ -20,16 +20,20 @@
     {item.extract}
   </p>
   <div class="buttons">
-    <Button
-      element="a"
-      href="/object/{item.titles.canonical}">View more!</Button
-    >
-    <LinkToWiki
-      urls={{
-        desktop: item.content_urls.desktop.page,
-        mobile: item.content_urls.mobile.page,
-      }}
-    />
+    <div class="button">
+      <Button
+        element="a"
+        href="/object/{item.titles.canonical}">View more!</Button
+      >
+    </div>
+    <div class="button">
+      <LinkToWiki
+        urls={{
+          desktop: item.content_urls.desktop.page,
+          mobile: item.content_urls.mobile.page,
+        }}
+      />
+    </div>
   </div>
 </div>
 
@@ -57,11 +61,20 @@
       width: 320px;
       height: 200px;
       object-fit: cover;
+      @media screen and (max-width: '450px') {
+        width: 200px;
+        height: 100px;
+      }
+      @media screen and (max-width: '270px') {
+        width: 150px;
+        height: 100px;
+      }
     }
     p {
       padding: 0 20px 0 20px;
       @media screen and (max-width: '450px') {
         font-size: 0.9em;
+        text-align: center;
       }
     }
     .buttons {
@@ -70,6 +83,14 @@
       align-items: center;
       justify-content: space-around;
       padding-bottom: 20px;
+      @media screen and (max-width: '450px') {
+        flex-direction: column;
+      }
+    }
+    .button {
+      @media screen and (max-width: '450px') {
+        padding: 20px 0;
+      }
     }
   }
 </style>

@@ -35,12 +35,21 @@
     @media screen and (max-width: '800px') {
       grid-template-columns: repeat(1, 1fr);
     }
+    @media screen and (max-width: '450px') {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
   }
   .grid-item {
     width: 360px;
     height: 430px;
     padding: var(--grid-padding);
     transition: 0.1s;
+    @media screen and (max-width: '450px') {
+      width: 100%;
+    }
   }
   .grid-item:hover {
     transform: scale(1.05);
