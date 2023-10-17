@@ -3,6 +3,7 @@
   import type { PageData } from './$types';
   import { page } from '$app/stores';
   import Button from '$components/Button.svelte';
+  import { base } from '$app/paths';
 
   export let data: PageData;
 </script>
@@ -15,7 +16,7 @@
         <Button
           element="a"
           variant="navigation"
-          href={`/objects/page/${Number($page.params.id) - 1}`}
+          href={`${base}/objects/page/${Number($page.params.id) - 1}`}
           >Previous page</Button
         >
       </div>
@@ -27,7 +28,7 @@
         <Button
           element="a"
           variant="navigation"
-          href={`/objects/page/${Number($page.params.id) + 1}`}
+          href={`${base}/objects/page/${Number($page.params.id) + 1}`}
           >Next page</Button
         >
       </div>

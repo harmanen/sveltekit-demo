@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { base } from '$app/paths';
   import '../styles/main.scss';
 </script>
 
@@ -6,7 +7,7 @@
   class="topbar"
   role="banner"
 >
-  <h1><a href="/">SvelteKit demo</a></h1>
+  <h1><a href="{base}/">SvelteKit demo</a></h1>
   <!-- "JavaScript is on/off" is conditionally rendered and color selected 
   based on the html.no-js class -->
   <h2>JavaScript is <span class="on">on</span><span class="off">off</span></h2>

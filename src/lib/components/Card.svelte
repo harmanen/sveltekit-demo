@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { base } from '$app/paths';
   import type { MockDataType } from '$mockData';
   import Button from './Button.svelte';
   import LinkToWiki from './LinkToWiki.svelte';
@@ -11,7 +12,7 @@
     {item.title}
   </h3>
   <a
-    href="/object/{item.titles.canonical}"
+    href="{base}/object/{item.titles.canonical}"
     aria-hidden="true"
     tabindex="-1"
   >
@@ -27,7 +28,7 @@
     <div class="button">
       <Button
         element="a"
-        href="/object/{item.titles.canonical}">View more!</Button
+        href="{base}/object/{item.titles.canonical}">View more!</Button
       >
     </div>
     <div class="button">
