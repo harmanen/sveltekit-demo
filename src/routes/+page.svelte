@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { base } from '$app/paths';
   import Button from '$components/Button.svelte';
   import ObjectsGrid from '$components/ObjectsGrid.svelte';
   import type { PageData } from './$types';
@@ -44,7 +45,7 @@
     <Button
       element="a"
       variant="navigation"
-      href="/objects/page/2">Next page</Button
+      href="{base}/objects/page/2">Next page</Button
     >
   </div>
 </div>
