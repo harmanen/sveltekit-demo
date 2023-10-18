@@ -28,3 +28,15 @@ If you try using the app with and without JavaScript, remember to refresh the pa
 ## Version history
 
 **Version 1.0.0** (2023-10-16): Initial version according to the original desing and changes mentioned in the design change log. See more in [here](./design/). Includes unit tests (rendering tests) for components.
+
+## Known issues
+
+### Version 1.0.0
+
+- Layout:
+  - Loaded items are not stored -> reset to initial state when navigating back from an object page
+  - No-JS navigation buttons need optimization for very narrow mobile widths
+
+- Cards:
+  - Padding between the buttons and the extract is fixed only in the deployment branch
+  - No-JS image width and navigation buttons need optimization for very narrow mobile widths
