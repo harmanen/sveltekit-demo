@@ -87,9 +87,10 @@
       display: flex;
       align-items: center;
       justify-content: space-around;
-      padding-bottom: 20px;
+      padding: 20px 0;
       @media screen and (max-width: '450px') {
         flex-direction: column;
+        padding: 0;
       }
     }
     .button {
